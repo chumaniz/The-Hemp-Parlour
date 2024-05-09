@@ -16,11 +16,14 @@ h1 {
 }
 
 nav {
+    position: sticky;
+    top:0;
     border-bottom: 1px solid rgb(228, 222, 222);
     padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: rgb(226, 228, 231);
 }
 
 ul {
@@ -42,29 +45,42 @@ li {
 
 li a {
     text-decoration: none;
-    color: rgb(81, 219, 12);
+    color: rgb(51, 127, 13);
 }
 
-#side-note {
+#side-note {   
     padding: 1px;
     margin-left: 1px;
-}
+    position: sticky;
+    top: 0; 
+}   
+
+
 
 #main section ul {
-    border-left: 1px solid  rgb(81, 219, 12);
-    padding: 5px;
+    border-left: 1px solid  rgb(228, 222, 222);
+    padding: 1px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 10px 1px 10px 1px;
+    margin: 10px 1px 100px 0px;
     width: 300;
     height: 200;
     float: right;
 }
 
+#main #yapping {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #main p {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 300px;
 }
 
 #idk {
@@ -72,8 +88,32 @@ li a {
 }
 
 #image {
-    margin: 50px;
+    margin: 50px 5px 50px 200px;
+    padding-left: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
+footer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin-top: 350px;
+    border: 1px solid rgb(33, 158, 33);
+    padding: 50px;
+    background-color: rgb(33, 158, 33);
+    color: white;
+    padding-bottom: 60px;
+}
+
+footer a {
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(85, 255, 0);
+}
+/* More than 100 lines worth of CSS...Jesus Christ */
