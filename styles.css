@@ -15,6 +15,15 @@ h1 {
     color: white;
 }
 
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 a:hover {
+    color: rgb(255, 255, 255);  
+}
+
 nav {
     position: sticky;
     top:0;

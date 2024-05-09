@@ -1,0 +1,18 @@
+#mainhero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid greenyellow;
+    margin: 100px 50px 500px 50px;  /*the margin at the bottom is subject to change  */
+}
+
+#mainhero #hook1 {
+    margin: 5px;
+}
+#mainhero #COA {
+    margin: 5px;
+}
+#mainhero #SHOP {
+    margin: 5px;
+}
