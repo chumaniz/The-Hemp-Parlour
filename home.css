@@ -1,18 +1,39 @@
+#herosect {
+    padding: 100px 200px 250px 200px;
+    margin: 0;
+    background-image: url(/product-images/backgroundimg1.webp);
+    background-repeat: no-repeat;
+    background-size: 1900px 1200px;
+}
+
 #mainhero {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid greenyellow;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(252, 249, 249, 0);
+    background-color: rgba(252, 249, 249, 0);
     margin: 100px 50px 500px 50px;  /*the margin at the bottom is subject to change  */
 }
 
 #mainhero #hook1 {
     margin: 5px;
+    opacity: 1;
 }
 #mainhero #COA {
     margin: 5px;
+    opacity: 1;
 }
 #mainhero #SHOP {
     margin: 5px;
+    opacity: 1;
+    background-color: white;
+    border: 1px solid white ;
+    border-radius: 3px;
+}
+
+#mainhero #SHOP a {
+    text-decoration: none;
+    color: rgb(33, 158, 33);
 }
