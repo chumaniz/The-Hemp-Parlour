@@ -1,6 +1,6 @@
 #herosect {
     padding: 100px 200px 250px 200px;
-    margin: 0;
+    margin: 0 0 50px 0;
     background-image: url(/product-images/backgroundimg1.webp);
     background-repeat: no-repeat;
     background-size: 1900px 1200px;
@@ -14,7 +14,7 @@
     color: rgb(255, 255, 255);
     border: 1px solid rgba(252, 249, 249, 0);
     background-color: rgba(252, 249, 249, 0);
-    margin: 100px 50px 500px 50px;  /*the margin at the bottom is subject to change  */
+    margin: 100px 50px 560px 50px;  /*the margin at the bottom is subject to change  */
 }
 
 #mainhero #hook1 {
@@ -28,12 +28,48 @@
 #mainhero #SHOP {
     margin: 5px;
     opacity: 1;
-    background-color: white;
-    border: 1px solid white ;
+    background-color: rgb(3, 39, 3);
+    border: 1px solid rgb(3, 39, 3);
     border-radius: 3px;
 }
 
 #mainhero #SHOP a {
     text-decoration: none;
-    color: rgb(33, 158, 33);
+    color: rgb(213, 230, 213);
+}
+
+#ourrng {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 127, 13);
+}
+
+#productrnge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 100px 50px 100px;
+}
+
+#productlbl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#productlbl a {
+    text-decoration: none;
+}
+
+.Hemp {
+    margin-left: 105px;
+    margin-right: 105px;
+    color: rgb(51, 127, 13);
+}
+
+footer {
+    margin-top: 200px;
 }
