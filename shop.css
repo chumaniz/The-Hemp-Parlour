@@ -1,0 +1,21 @@
+#shop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: rgb(50, 134, 8);
+    text-decoration: underline;
+}
+
+#top-banner {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(50, 134, 8);
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row;
+}
