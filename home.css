@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(238, 255, 232);
+}
+
 #herosect {
     padding: 100px 200px 250px 200px;
     margin: 0 0 50px 0;
