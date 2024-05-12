@@ -47,6 +47,11 @@ body {
     font-weight: bolder;
 }
 
+.buy {
+    text-decoration: none;
+    color: white;
+}
+
 footer {
     margin-top: 150px;
 }
