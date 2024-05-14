@@ -21,6 +21,19 @@ body {
     padding: 10px 300px 10px 300px;
 }
 
+#side-note {   
+    padding: 1px;
+    margin: 1px;
+}   
+
+#side-note ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 footer {
     margin-top: 250px;
 }
