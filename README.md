@@ -5,12 +5,10 @@ I dont know why, I am just doing it because it is silly fun.
 
 # TODO:
 
-1. Individual Product Page, Finished descritpion, 
+1. Amount Counter, Add To Basket button (Will Require Javascript or a Javascript Framework depending on the size of the haul)
 
-2. Amount Counter, Add To Basket button (Will Require Javascript or a Javascript Framework depending on the size of the haul)
+2. Trolley Icon
 
-3. Trolley Icon
+3. Checkout button
 
-4. Checkout button
-
-5. View Trolley. (Will Require Golang and MySQL)
+4. View Trolley. (Will Require Golang and MySQL)
